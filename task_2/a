@@ -1,1 +1,12 @@
+Explanation why I created each test case:
+1)test_no_threats: This test checks if the function returns a score of 0 when all departments have no threats. It helps to make sure that the function works when there's nothing dangerous happening.
 
+2)test_high_threat_in_important_department: This test makes sure that the function gives more weight to important departments with high threat scores. It ensures the function gives the right score when an important department has a high threat.
+
+3)test_uniform_scores_different_importance: This test checks if the function handles departments with similar threat levels but different importance. It makes sure that more important departments have a bigger impact on the final score.
+
+4)test_large_variance: This test checks if the function can handle departments with very different threat levels. It ensures that the final score stays within the allowed range, even with big differences in scores.
+
+5)test_all_high_threats_same_importance: This test checks if the function gives a high score when all departments have high threats and equal importance. It makes sure that when everything is bad, the score is high.
+
+6)test_varying_department_size: This test checks if the function works when departments have different numbers of people. It ensures that the function can handle situations where some departments are much bigger or smaller than others.
