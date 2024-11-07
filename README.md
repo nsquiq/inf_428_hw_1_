@@ -7,3 +7,8 @@ Day 1:
 
 Day 2:
      I thought about the solution of 2nd task and wrote it in python file and uploaded.
+
+Day 3:
+     Solved a problem about Feature Transformation(task 3)
+
+     
